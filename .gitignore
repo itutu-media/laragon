@@ -1,3 +1,17 @@
+bin/apache
+bin/nginx
+bin/mariadb
+bin/mysql
+bin/postgresql
+bin/mongodb
+bin/redis
+bin/php
+bin/node
+bin/java
+bin/ruby
+bin/flutter
+bin/go
+
 bin/heidisql/tabs.ini
 bin/heidisql/Backups/*
 
@@ -17,10 +31,13 @@ etc/apache2/sites-enabled
 etc/nginx/*
 !etc/nginx/alias
 !etc/nginx/php_upstream.conf
+etc/ssl/*
+!etc/ssl/cacert.pem
 
 tmp
 
 usr/tpl
+usr/go
 
 www/*
 !www/index.php
