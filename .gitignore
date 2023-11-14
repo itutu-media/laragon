@@ -28,8 +28,9 @@ bin/notepad++/plugins/Config/converter.ini
 data
 
 etc/apache2/sites-enabled
+etc/apache2/alias/*
 etc/nginx/*
-!etc/nginx/alias
+etc/nginx/alias/*
 !etc/nginx/php_upstream.conf
 etc/ssl/*
 !etc/ssl/cacert.pem
@@ -38,6 +39,8 @@ tmp
 
 usr/tpl
 usr/go
+usr/laragon.ini
+usr/packages.conf
 
 www/*
 !www/index.php
