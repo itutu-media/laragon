@@ -40,7 +40,6 @@ tmp
 usr/tpl
 usr/go
 usr/laragon.ini
-usr/packages.conf
 
 www/*
 !www/index.php
